@@ -52,8 +52,8 @@ A simple, minimal blog application built with **Next.js** that allows users to v
   - `index.js`: Home page that lists all blog posts.
   - `posts/[id].js`: Dynamic page that shows the full content of each blog post.
 - `styles/`: Contains the CSS files.
-  - `HomePage.module.css`: Styles for the home page.
-  - `PostPage.module.css`: Styles for the blog post page.
+  - `Home.module.css`: Styles for the home page.
+  - `Post.module.css`: Styles for the blog post page.
   - `global.css`: Global Styles or common blog page styles.
 - `public/`: Contains static assets like the `back.svg` icon.
 - `data/`: Contains `posts.json` with the blog data.
