@@ -1,0 +1,56 @@
+/* styles/Post.module.css */
+
+.container {
+  padding: 20px;
+  max-width: 800px; /* Adjust the width as needed */
+  margin: 0 auto; /* Centers the container horizontally */
+  display: flex;
+  flex-direction: column; /* Stacks children vertically */
+  align-items: center; /* Centers the content horizontally */
+}
+
+.postTitle {
+  font-size: 2rem;
+  color: #0070f3;
+  margin-bottom: 10px;
+  text-align: center; /* Centers the title */
+}
+
+.postDate {
+  color: #777;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  text-align: center; /* Centers the date */
+}
+
+.postContent {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #444;
+  max-width: 800px; /* Limits the content width */
+}
+
+.backLink {
+  padding: 30px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center; /* Centers the back link horizontally */
+}
+
+.link {
+  text-decoration: none;
+  color: #0070f3;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.link span {
+  display: inline-block;
+  margin-left: 5px;
+}

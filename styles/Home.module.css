@@ -1,0 +1,51 @@
+/* styles/Home.module.css */
+
+.container {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.blogList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.blogItem {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  transition: box-shadow 0.3s ease;
+  border-left: 4px solid #0070f3;
+}
+
+.blogItem:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.blogTitle {
+  font-size: 1.5rem;
+  margin-bottom: 8px;
+  color: #0070f3;
+}
+
+.blogExcerpt {
+  color: #555;
+  font-size: 1rem;
+}
+
+/* Add local class for links */
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.link:hover {
+  color: #0070f3;
+  text-decoration: underline;
+}
