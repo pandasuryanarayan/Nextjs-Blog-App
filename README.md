@@ -22,22 +22,29 @@ A simple, minimal blog application built with **Next.js** that allows users to v
    git clone https://github.com/pandasuryanarayan/Nextjs-Blog-App.git
    ```
 
-2. Install dependencies:
+2. Navigate to below folder using terminal or cmd from where you have cloned:
    ```bash
-   cd nextjs-blog
+   cd Nextjs-Blog-App
+   ```
+3. Install dependencies:
+   ```bash
    npm install
-   # or
+   ```
+   or
+   ```bash
    yarn install
    ```
 
-3. Run the development server:
+4. Run the development server:
    ```bash
    npm run dev
-   # or
+   ```
+   or
+   ```
    yarn dev
    ```
 
-4. Visit the app at [http://localhost:3000](http://localhost:3000) in your browser.
+5. Visit the app at [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## Folder Structure
 
