@@ -19,7 +19,7 @@ A simple, minimal blog application built with **Next.js** that allows users to v
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/pandasuryanarayan/nextjs-blog.git
+   git clone https://github.com/pandasuryanarayan/Nextjs-Blog-App.git
    ```
 
 2. Install dependencies:
